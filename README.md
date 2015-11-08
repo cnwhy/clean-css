@@ -118,6 +118,8 @@ CleanCSS constructor accepts a hash as a parameter, i.e.,
 * `relativeTo` - path to **resolve** relative `@import` rules and URLs
 * `restructuring` - set to false to disable restructuring in advanced optimizations
 * `root` - path to **resolve** absolute `@import` rules and **rebase** relative URLs
+* `baseUrl` - **rebase** relative URLs for baseUrl
+* `reAbsolute` - **rebase** relative absolute URLs (default is false)
 * `roundingPrecision` - rounding precision; defaults to `2`; `-1` disables rounding
 * `semanticMerging` - set to true to enable semantic merging mode which assumes BEM-like content (default is false as it's highly likely this will break your stylesheets - **use with caution**!)
 * `shorthandCompacting` - set to false to skip shorthand compacting (default is true unless sourceMap is set when it's false)
