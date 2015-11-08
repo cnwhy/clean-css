@@ -1,5 +1,5 @@
 {
-  "name": "clean-css",
+  "name": "@cnwhy/clean-css",
   "version": "3.4.25",
   "author": "Jakub Pawlowicz <contact@jakubpawlowicz.com> (http://twitter.com/jakubpawlowicz)",
   "description": "A well-tested CSS minifier",
